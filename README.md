@@ -1,3 +1,3 @@
 # Exercises
 # Self practice done here
-# Can be used to develop a social media platform
+# Intended to be used to develop a social media platform
