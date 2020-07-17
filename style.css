@@ -1,0 +1,59 @@
+.gridd {
+  display: grid;
+  grid-template-columns: 1fr 200px 500px 1fr;
+  grid-gap: 4px;
+  grid-template-areas:
+  ". header header ."
+  ". sidebar maincon ."
+  ". sidebar maincon ."
+}
+
+.header {
+  grid-area: header;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: turquoise;
+}
+
+.sidebar {
+  background-color: grey;
+  grid-area: sidebar;
+}
+
+.maincon {
+  grid-area: maincon;
+  background-color:;
+}
+
+.title {
+  border-radius: 20px;
+  border-color: white; 
+}
+
+.pic {
+  border-radius: 50% 50% / 50% 50%;
+}
+
+.skills {
+  display: flex;
+}
+
+.unordered {
+  margin-right: 100px;
+}
+
+.para {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.jobs {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.school {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
